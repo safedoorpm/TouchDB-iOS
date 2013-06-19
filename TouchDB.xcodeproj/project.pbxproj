@@ -359,6 +359,50 @@
 		27F1E4A61697995C00F0E50F /* TDJSViewCompiler.m in Sources */ = {isa = PBXBuildFile; fileRef = 27F1E4A51697995C00F0E50F /* TDJSViewCompiler.m */; };
 		27F1E4A8169799DA00F0E50F /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27F1E4A7169799DA00F0E50F /* JavaScriptCore.framework */; };
 		27F1E4AB16979A0B00F0E50F /* TDJSViewCompiler_Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 27F1E4AA16979A0B00F0E50F /* TDJSViewCompiler_Test.m */; };
+		37C809A0177107630044FE41 /* TD_Database.h in Headers */ = {isa = PBXBuildFile; fileRef = 27F0744611CD4B6D00E9A2AB /* TD_Database.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37C809A1177107630044FE41 /* TD_Database+Attachments.h in Headers */ = {isa = PBXBuildFile; fileRef = 2711CDFC14C7590A00505D55 /* TD_Database+Attachments.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37C809A2177107630044FE41 /* TD_Database+Insertion.h in Headers */ = {isa = PBXBuildFile; fileRef = 2711CDFF14C7595900505D55 /* TD_Database+Insertion.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37C809A3177107630044FE41 /* TD_Database+Replication.h in Headers */ = {isa = PBXBuildFile; fileRef = 2711CE0214C759BD00505D55 /* TD_Database+Replication.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37C809A4177107630044FE41 /* TD_Database+LocalDocs.h in Headers */ = {isa = PBXBuildFile; fileRef = 2773ADC514BD1EB80027A292 /* TD_Database+LocalDocs.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37C809A5177107630044FE41 /* TD_DatabaseManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2751D4E2151BAE7000F7FD57 /* TD_DatabaseManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37C809A6177107630044FE41 /* TD_View.h in Headers */ = {isa = PBXBuildFile; fileRef = 279EB2CC149140DE00E74185 /* TD_View.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37C809A7177107630044FE41 /* TD_Body.h in Headers */ = {isa = PBXBuildFile; fileRef = 27F074A911CD5D7A00E9A2AB /* TD_Body.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37C809A8177107630044FE41 /* TD_Revision.h in Headers */ = {isa = PBXBuildFile; fileRef = 270B3E3714898DF200E0A926 /* TD_Revision.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37C809A9177107630044FE41 /* TD_Attachment.h in Headers */ = {isa = PBXBuildFile; fileRef = 27A7209E152B959100C0A0E8 /* TD_Attachment.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37C809AA177107630044FE41 /* TD_Server.h in Headers */ = {isa = PBXBuildFile; fileRef = 27C706401486BBD500F0F099 /* TD_Server.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37C809AB177107630044FE41 /* TDBlobStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 27731EFD1493FA3100815D67 /* TDBlobStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37C809AC177107630044FE41 /* TDRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = 27C706431486BE7100F0F099 /* TDRouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37C809AD177107630044FE41 /* TDURLProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 27C706461487584300F0F099 /* TDURLProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37C809AE177107630044FE41 /* TDReplicator.h in Headers */ = {isa = PBXBuildFile; fileRef = 27821BB5148E7D6F0099B373 /* TDReplicator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37C809AF177107630044FE41 /* TDPuller.h in Headers */ = {isa = PBXBuildFile; fileRef = 270B3E291489581E00E0A926 /* TDPuller.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37C809B0177107630044FE41 /* TDPusher.h in Headers */ = {isa = PBXBuildFile; fileRef = 270B3E3C148D7F0000E0A926 /* TDPusher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37C809B1177107630044FE41 /* TDMultipartDocumentReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 27ADC077152502EE001ABC1D /* TDMultipartDocumentReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37C809B2177107630044FE41 /* TDMultipartDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 279CE40814D8AA23009F3FA6 /* TDMultipartDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37C809B3177107630044FE41 /* TDMultipartUploader.h in Headers */ = {isa = PBXBuildFile; fileRef = 27C5305214DF3A050078F886 /* TDMultipartUploader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37C809B4177107630044FE41 /* TDReplicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 27C40C7714EC58BC00994283 /* TDReplicatorManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37C809B5177107630044FE41 /* TDChangeTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = 27B0B790149290AB00A817AD /* TDChangeTracker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37C809B6177107630044FE41 /* TDConnectionChangeTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = 27B0B792149290AB00A817AD /* TDConnectionChangeTracker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37C809B7177107630044FE41 /* TDSocketChangeTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = 27ED9AA0163B01D5000C844A /* TDSocketChangeTracker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37C809B8177107630044FE41 /* TDRemoteRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 279906E1149A65B7003D4338 /* TDRemoteRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37C809B9177107630044FE41 /* TDMultipartReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 279CE3FE14D749A7009F3FA6 /* TDMultipartReader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37C809BA177107630044FE41 /* TDMultiStreamWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2766EFFB14DC7B37009ECCA8 /* TDMultiStreamWriter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37C809BB177107630044FE41 /* TDMultipartWriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2766EFF614DB7F9F009ECCA8 /* TDMultipartWriter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37C809BC177107630044FE41 /* TDReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 27103F8114E9CE4400DF7209 /* TDReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37C809BD177107630044FE41 /* TDAuthorizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 270F5703156AE0BF000FEB8F /* TDAuthorizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37C809BE177107630044FE41 /* TDPersonaAuthorizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 2776A5D316A61FD6006FF199 /* TDPersonaAuthorizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37C809BF177107630044FE41 /* TDOAuth1Authorizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 27F128AF156AC1C8008465C2 /* TDOAuth1Authorizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37C809CA1771098A0044FE41 /* TDStatus.h in Headers */ = {isa = PBXBuildFile; fileRef = 274F9807152E6E0C00247C46 /* TDStatus.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37C809CB1771098A0044FE41 /* TDInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 279EB2D01491442500E74185 /* TDInternal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37C809CC1771098A0044FE41 /* TDJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 272B85121523691700A90CB2 /* TDJSON.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37C809CD1771098A0044FE41 /* TDCanonicalJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 278B0C9E152A8B1900577747 /* TDCanonicalJSON.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37C809CE1771098A0044FE41 /* TDBase64.h in Headers */ = {isa = PBXBuildFile; fileRef = 27B0B79C1492932700A817AD /* TDBase64.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37C809CF1771098A0044FE41 /* TDCollateJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 279EB2D91491C34300E74185 /* TDCollateJSON.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37C809D01771098A0044FE41 /* TDBatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 279906EC149ABFC1003D4338 /* TDBatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37C809D11771098A0044FE41 /* TDSequenceMap.h in Headers */ = {isa = PBXBuildFile; fileRef = 279C7E2C14F424090004A1E8 /* TDSequenceMap.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37C809D21771098A0044FE41 /* TDMisc.h in Headers */ = {isa = PBXBuildFile; fileRef = 27A073EA14C0BB6200F52FE7 /* TDMisc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37C809D31771098A0044FE41 /* TouchDB.h in Headers */ = {isa = PBXBuildFile; fileRef = 270B3E1F148938D800E0A926 /* TouchDB.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37C809D41771098A0044FE41 /* TouchDBPrefix.h in Headers */ = {isa = PBXBuildFile; fileRef = 27821BBD14906FB50099B373 /* TouchDBPrefix.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37C809D51771098A0044FE41 /* TDGNUstep.h in Headers */ = {isa = PBXBuildFile; fileRef = 27F87BE61558890600F0A416 /* TDGNUstep.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DA023B4614BCA94C008184BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27F0745C11CD50A600E9A2AB /* Foundation.framework */; };
 		DA147C0C14BCA98A0052DA4D /* TDListener.m in Sources */ = {isa = PBXBuildFile; fileRef = 275315DF14ACF0A20065964D /* TDListener.m */; };
 		DA147C0D14BCA98A0052DA4D /* TDHTTPConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 2753160B14ACFC2A0065964D /* TDHTTPConnection.m */; };
@@ -1580,6 +1624,57 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		37C8099F1771071F0044FE41 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37C809A0177107630044FE41 /* TD_Database.h in Headers */,
+				37C809A1177107630044FE41 /* TD_Database+Attachments.h in Headers */,
+				37C809A2177107630044FE41 /* TD_Database+Insertion.h in Headers */,
+				37C809A3177107630044FE41 /* TD_Database+Replication.h in Headers */,
+				37C809A4177107630044FE41 /* TD_Database+LocalDocs.h in Headers */,
+				37C809A5177107630044FE41 /* TD_DatabaseManager.h in Headers */,
+				37C809A6177107630044FE41 /* TD_View.h in Headers */,
+				37C809A7177107630044FE41 /* TD_Body.h in Headers */,
+				37C809A8177107630044FE41 /* TD_Revision.h in Headers */,
+				37C809A9177107630044FE41 /* TD_Attachment.h in Headers */,
+				37C809AA177107630044FE41 /* TD_Server.h in Headers */,
+				37C809AB177107630044FE41 /* TDBlobStore.h in Headers */,
+				37C809AC177107630044FE41 /* TDRouter.h in Headers */,
+				37C809AD177107630044FE41 /* TDURLProtocol.h in Headers */,
+				37C809AE177107630044FE41 /* TDReplicator.h in Headers */,
+				37C809AF177107630044FE41 /* TDPuller.h in Headers */,
+				37C809B0177107630044FE41 /* TDPusher.h in Headers */,
+				37C809B1177107630044FE41 /* TDMultipartDocumentReader.h in Headers */,
+				37C809B2177107630044FE41 /* TDMultipartDownloader.h in Headers */,
+				37C809B3177107630044FE41 /* TDMultipartUploader.h in Headers */,
+				37C809B4177107630044FE41 /* TDReplicatorManager.h in Headers */,
+				37C809B5177107630044FE41 /* TDChangeTracker.h in Headers */,
+				37C809B6177107630044FE41 /* TDConnectionChangeTracker.h in Headers */,
+				37C809B7177107630044FE41 /* TDSocketChangeTracker.h in Headers */,
+				37C809B8177107630044FE41 /* TDRemoteRequest.h in Headers */,
+				37C809B9177107630044FE41 /* TDMultipartReader.h in Headers */,
+				37C809BA177107630044FE41 /* TDMultiStreamWriter.h in Headers */,
+				37C809BB177107630044FE41 /* TDMultipartWriter.h in Headers */,
+				37C809BC177107630044FE41 /* TDReachability.h in Headers */,
+				37C809BD177107630044FE41 /* TDAuthorizer.h in Headers */,
+				37C809BE177107630044FE41 /* TDPersonaAuthorizer.h in Headers */,
+				37C809BF177107630044FE41 /* TDOAuth1Authorizer.h in Headers */,
+				37C809CA1771098A0044FE41 /* TDStatus.h in Headers */,
+				37C809CB1771098A0044FE41 /* TDInternal.h in Headers */,
+				37C809CC1771098A0044FE41 /* TDJSON.h in Headers */,
+				37C809CD1771098A0044FE41 /* TDCanonicalJSON.h in Headers */,
+				37C809CE1771098A0044FE41 /* TDBase64.h in Headers */,
+				37C809CF1771098A0044FE41 /* TDCollateJSON.h in Headers */,
+				37C809D01771098A0044FE41 /* TDBatcher.h in Headers */,
+				37C809D11771098A0044FE41 /* TDSequenceMap.h in Headers */,
+				37C809D21771098A0044FE41 /* TDMisc.h in Headers */,
+				37C809D31771098A0044FE41 /* TouchDB.h in Headers */,
+				37C809D41771098A0044FE41 /* TouchDBPrefix.h in Headers */,
+				37C809D51771098A0044FE41 /* TDGNUstep.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DA147C2614BCAC3B0052DA4D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -1690,6 +1785,7 @@
 				27B0B7A51492B83B00A817AD /* Sources */,
 				27B0B7A61492B83B00A817AD /* Frameworks */,
 				27B0B7E21492BA5900A817AD /* Build Fat Library */,
+				37C8099F1771071F0044FE41 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -2797,6 +2893,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = TouchDB;
+				PUBLIC_HEADERS_FOLDER_PATH = include/TouchDB;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
@@ -2816,6 +2913,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = TouchDB;
+				PUBLIC_HEADERS_FOLDER_PATH = include/TouchDB;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				VALIDATE_PRODUCT = YES;
@@ -3042,6 +3140,387 @@
 			};
 			name = Release;
 		};
+		37C80990177106B20044FE41 /* AdHoc */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27F074F811CDC71800E9A2AB /* MYUtilities_Debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_ANALYZER_SECURITY_INSECUREAPI_STRCPY = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_OBJC_MISSING_PROPERTY_SYNTHESIS = YES;
+				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CURRENT_PROJECT_VERSION = 1.012;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_FILE = "$(PRODUCT_NAME)_vers.c";
+			};
+			name = AdHoc;
+		};
+		37C80991177106B20044FE41 /* AdHoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXPORTED_SYMBOLS_FILE = "";
+				FRAMEWORK_VERSION = A;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Source/TouchDBPrefix.h;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = "Source/TouchDB-Info.plist";
+				LD_DYLIB_INSTALL_NAME = "@rpath/$(EXECUTABLE_PATH)";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = TouchDB;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = AdHoc;
+		};
+		37C80992177106B20044FE41 /* AdHoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXPORTED_SYMBOLS_FILE = Listener/TouchDBListener.exp;
+				FRAMEWORK_VERSION = A;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_SIGN_COMPARE = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				INFOPLIST_FILE = "Listener/TouchDBListener-Info.plist";
+				LD_DYLIB_INSTALL_NAME = "@rpath/$(EXECUTABLE_PATH)";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = AdHoc;
+		};
+		37C80993177106B20044FE41 /* AdHoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				INFOPLIST_FILE = "TouchDBTests/TouchDBTests-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = TouchDBTests;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = AdHoc;
+		};
+		37C80994177106B20044FE41 /* AdHoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Demo-Mac/Frameworks\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				INFOPLIST_FILE = "Demo-Mac/ShoppingDemo-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "TouchDB Demo";
+				VALID_ARCHS = x86_64;
+				WRAPPER_EXTENSION = app;
+			};
+			name = AdHoc;
+		};
+		37C80995177106B20044FE41 /* AdHoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../iOS-Couchbase-repo/CouchCocoa/build/CouchCocoa/Build/Products/Debug\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = Source/TouchDBPrefix.h;
+				INFOPLIST_FILE = "ShoppingDemo-Info.plist";
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = TouchDB;
+			};
+			name = AdHoc;
+		};
+		37C80996177106B20044FE41 /* AdHoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/TouchDBiOS.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = Source/TouchDBPrefix.h;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = TouchDB;
+				PUBLIC_HEADERS_FOLDER_PATH = include/TouchDB;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = AdHoc;
+		};
+		37C80997177106B20044FE41 /* AdHoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TouchDBiOS/TouchDBiOS-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				INFOPLIST_FILE = "TouchDBiOSTests/TouchDBiOSTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = AdHoc;
+		};
+		37C80998177106B20044FE41 /* AdHoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)-ios-universal";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iTouchDB/iTouchDB-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				INFOPLIST_FILE = "Source/TouchDB-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				MACH_O_TYPE = mh_dylib;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = TouchDB;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = AdHoc;
+		};
+		37C80999177106B20044FE41 /* AdHoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+					"\"$(SRCROOT)/Demo-iOS/Frameworks\"",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Demo-iOS/iOS Demo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				INFOPLIST_FILE = "Demo-iOS/iOS Demo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "TouchDB Demo";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = AdHoc;
+		};
+		37C8099A177106B20044FE41 /* AdHoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+					"\"$(SRCROOT)/Demo-iOS/Frameworks\"",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Demo-iOS/iOS Demo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				INFOPLIST_FILE = "Demo-iOS/iOS Empty App-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "TouchDB Empty App";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = AdHoc;
+		};
+		37C8099B177106B20044FE41 /* AdHoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = NO;
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/TouchDBiOS.dst;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Source/TouchDBPrefix.h;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_POINTER_SIGNEDNESS = YES;
+				GCC_WARN_SIGN_COMPARE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = TouchDBListener;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = AdHoc;
+		};
+		37C8099C177106B20044FE41 /* AdHoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)-ios-universal";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iTouchDB/iTouchDB-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				MACH_O_TYPE = mh_dylib;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = TouchDBListener;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = AdHoc;
+		};
+		37C8099D177106B20044FE41 /* AdHoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = AdHoc;
+		};
+		37C8099E177106B20044FE41 /* AdHoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = AdHoc;
+		};
 		DA023B6214BCA94C008184BB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -3149,6 +3628,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1DEB923208733DC60010E9CD /* Debug */,
+				37C80995177106B20044FE41 /* AdHoc */,
 				1DEB923308733DC60010E9CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -3158,6 +3638,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1DEB923608733DC60010E9CD /* Debug */,
+				37C80990177106B20044FE41 /* AdHoc */,
 				1DEB923708733DC60010E9CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -3167,6 +3648,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				270B3E0C1489359100E0A926 /* Debug */,
+				37C80991177106B20044FE41 /* AdHoc */,
 				270B3E0D1489359100E0A926 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -3176,6 +3658,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				270B3E0F1489359100E0A926 /* Debug */,
+				37C80993177106B20044FE41 /* AdHoc */,
 				270B3E101489359100E0A926 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -3185,6 +3668,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				270FE0D214C5008C005FF647 /* Debug */,
+				37C8099D177106B20044FE41 /* AdHoc */,
 				270FE0D314C5008C005FF647 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -3194,6 +3678,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				275315E214ACF0A20065964D /* Debug */,
+				37C80992177106B20044FE41 /* AdHoc */,
 				275315E314ACF0A20065964D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -3203,6 +3688,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				275A29261649C58900B0D8EE /* Debug */,
+				37C8099E177106B20044FE41 /* AdHoc */,
 				275A29271649C58900B0D8EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -3212,6 +3698,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				27731F281495CFEF00815D67 /* Debug */,
+				37C8099A177106B20044FE41 /* AdHoc */,
 				27731F291495CFEF00815D67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -3221,6 +3708,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				27B0B7C81492B83C00A817AD /* Debug */,
+				37C80996177106B20044FE41 /* AdHoc */,
 				27B0B7C91492B83C00A817AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -3230,6 +3718,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				27B0B7CB1492B83C00A817AD /* Debug */,
+				37C80997177106B20044FE41 /* AdHoc */,
 				27B0B7CC1492B83C00A817AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -3239,6 +3728,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				27B0B7F21492BB6C00A817AD /* Debug */,
+				37C80998177106B20044FE41 /* AdHoc */,
 				27B0B7F31492BB6C00A817AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -3248,6 +3738,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				27B0B82A1492C16300A817AD /* Debug */,
+				37C80999177106B20044FE41 /* AdHoc */,
 				27B0B82B1492C16300A817AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -3257,6 +3748,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				27C706B0148864BA00F0F099 /* Debug */,
+				37C80994177106B20044FE41 /* AdHoc */,
 				27C706B1148864BA00F0F099 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -3266,6 +3758,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DA023B6214BCA94C008184BB /* Debug */,
+				37C8099B177106B20044FE41 /* AdHoc */,
 				DA023B6314BCA94C008184BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -3275,6 +3768,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DA147C3414BCAC3B0052DA4D /* Debug */,
+				37C8099C177106B20044FE41 /* AdHoc */,
 				DA147C3514BCAC3B0052DA4D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
