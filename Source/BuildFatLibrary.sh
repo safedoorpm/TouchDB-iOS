@@ -110,11 +110,12 @@ lipo -create -output "${CREATING_UNIVERSAL_DIR}/${EXECUTABLE_NAME}" "${CURRENTCO
 #
 # Added: StackOverflow suggestion to also copy "include" files
 #    (untested, but should work OK)
+#    (removed KAM 10 Sep 2013 - nothing in /usr/local/include causes cp to fail)
 #
-if [ -d "${CURRENTCONFIG_DEVICE_DIR}/usr/local/include" ]
-then
-mkdir -p "${CREATING_UNIVERSAL_DIR}/usr/local/include"
-# * needs to be outside the double quotes?
-cp "${CURRENTCONFIG_DEVICE_DIR}/usr/local/include/"* "${CREATING_UNIVERSAL_DIR}/usr/local/include"
-fi
+# if [ -d "${CURRENTCONFIG_DEVICE_DIR}/usr/local/include" ]
+# then
+# mkdir -p "${CREATING_UNIVERSAL_DIR}/usr/local/include"
+# # * needs to be outside the double quotes?
+# cp "${CURRENTCONFIG_DEVICE_DIR}/usr/local/include/"* "${CREATING_UNIVERSAL_DIR}/usr/local/include"
+# fi
 fi
