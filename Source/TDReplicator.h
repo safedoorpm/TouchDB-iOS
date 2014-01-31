@@ -48,6 +48,9 @@ extern NSString* TDReplicatorStoppedNotification;
     NSDictionary* _requestHeaders;
     @private
     TDReachability* _host;
+    #if TARGET_OS_IPHONE
+            NSUInteger /*UIBackgroundTaskIdentifier*/ _bgTask;
+    #endif
 }
 
 + (NSString *)progressChangedNotification;
@@ -111,5 +114,9 @@ extern NSString* TDReplicatorStoppedNotification;
 
 /** JSON-compatible array of status info about active remote HTTP requests. */
 @property (readonly) NSArray* activeRequestsStatus;
+
+/** Timeout interval for HTTP requests sent by this replicator.
+    (Derived from options key "connection_timeout", in milliseconds.) */
+@property (readonly) NSTimeInterval requestTimeout;
 
 @end
