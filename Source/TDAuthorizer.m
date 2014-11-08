@@ -34,7 +34,7 @@
 - (id)initWithURL: (NSURL*)url
 {
     Log(@"TDBasicAuthorizer initWith <%@>", url);//TEMP
-    NSURLCredential *cred = [url my_credentialForRealm: nil
+    NSURLCredential *cred = [url my_credentialForRealm: [[NSUserDefaults standardUserDefaults] stringForKey:@"SafedoorPM.AppState.authentication_realm_preference"]
                                   authenticationMethod: NSURLAuthenticationMethodHTTPBasic];
     if (!cred)
         return nil;
