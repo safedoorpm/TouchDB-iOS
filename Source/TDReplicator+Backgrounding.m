@@ -64,7 +64,6 @@
     // work, but it has to block until that work is done, because UIApplication requires
     // background tasks to be registered before the notification handler returns; otherwise the app
     // simply suspends itself.
-    NSLog(@"APP BACKGROUNDING");
     MYOnThreadSynchronously(_thread, ^{
         if (self.active) {
             _bgTask = [[UIApplication sharedApplication] beginBackgroundTaskWithExpirationHandler: ^{
