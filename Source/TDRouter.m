@@ -406,7 +406,10 @@ static NSArray* splitPath( NSURL* url ) {
     IMP fn = objc_msg_lookup(self, sel);
     return (TDStatus) fn(self, sel, _db, docID, attachmentName);
 #else
-    return (TDStatus) objc_msgSend(self, sel, _db, docID, attachmentName);
+	// See http://stackoverflow.com/questions/2573805/using-objc-msgsend-to-call-a-objective-c-function-with-named-arguments
+	TDStatus (*objc_msgSendTyped)(id self, SEL _cmd, TD_Database* foo, NSString* docID, NSString* attachmentName) = (void*)objc_msgSend;
+	TDStatus status = objc_msgSendTyped(self, sel, _db, docID, attachmentName);
+	return status;
 #endif
 }
 

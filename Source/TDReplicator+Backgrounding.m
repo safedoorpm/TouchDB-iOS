@@ -53,7 +53,7 @@
 // Called when the replicator goes idle
 - (void) okToEndBackgrounding {
     if (_bgTask != UIBackgroundTaskInvalid) {
-        LogTo(Sync, @"%@: Now idle; stopping background task (%d)", self, _bgTask);
+        LogTo(Sync, @"%@: Now idle; stopping background task (%lu)", self, (unsigned long)_bgTask);
         [self stop];
     }
 }
@@ -69,11 +69,11 @@
             _bgTask = [[UIApplication sharedApplication] beginBackgroundTaskWithExpirationHandler: ^{
                 // Called if process runs out of background time before replication finishes:
                 MYOnThreadSynchronously(_thread, ^{
-                    LogTo(Sync, @"%@: Background task (%d) ran out of time!", self, _bgTask);
+                    LogTo(Sync, @"%@: Background task (%lu) ran out of time!", self, (unsigned long)_bgTask);
                     [self stop];
                 });
             }];
-            LogTo(Sync, @"%@: App going into background (bgTask=%d)", self, _bgTask);
+            LogTo(Sync, @"%@: App going into background (bgTask=%lu)", self, (unsigned long)_bgTask);
             if (_bgTask == UIBackgroundTaskInvalid) {
                 // Backgrounding isn't possible for whatever reason, so just stop now:
                 [self stop];
@@ -91,7 +91,7 @@
     NSLog(@"APP FOREGROUNDING");
     MYOnThread(_thread, ^{
         if (_bgTask != UIBackgroundTaskInvalid) {
-            LogTo(Sync, @"%@: App returning to foreground (bgTask=%d)", self, _bgTask);
+            LogTo(Sync, @"%@: App returning to foreground (bgTask=%lu)", self, (unsigned long)_bgTask);
             [self endBGTask];
         }
     });
