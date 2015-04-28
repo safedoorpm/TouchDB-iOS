@@ -120,10 +120,14 @@
         // Disable TLS 1.2 support because it breaks compatibility with some SSL servers;
         // workaround taken from Apple technote TN2287:
         // http://developer.apple.com/library/ios/#technotes/tn2287/
-        NSDictionary *settings = $dict({(id)kCFStreamSSLLevel,
-                                        @"kCFStreamSocketSecurityLevelTLSv1_0SSLv3"});
-        CFReadStreamSetProperty(cfInputStream,
-                                kCFStreamPropertySSLSettings, (CFTypeRef)settings);
+// Re-enable TLS 1.2 because we know our server supports it and disabling it
+// turns out to be a bad idea in this post-POODLE and post-HEARTBLEED era where
+// servers the world over are refusing to negotiate a connection if the client
+// is not using 1.2
+//        NSDictionary *settings = $dict({(id)kCFStreamSSLLevel,
+//                                        @"kCFStreamSocketSecurityLevelTLSv1_0SSLv3"});
+//        CFReadStreamSetProperty(cfInputStream,
+//                                kCFStreamPropertySSLSettings, (CFTypeRef)settings);
     }
     
     _gotResponseHeaders = _atEOF = _inputAvailable = _parsing = false;
